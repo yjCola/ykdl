@@ -50,7 +50,7 @@ class Douyutv(VideoExtractor):
             # try load local .js file first
             # from https://cdnjs.com/libraries/crypto-js
             from pkgutil import get_data
-            js_md5 = get_data(__name__, 'crypto-js-md5.min.js')
+            js_md5 = get_data(__name__, 'crypto-md5.js')
             if isinstance(js_md5, bytes):
                 js_md5 = js_md5.decode()
         except IOError:
