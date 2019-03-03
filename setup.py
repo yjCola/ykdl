@@ -40,6 +40,10 @@ setup(
     install_requires = REQ,
     platforms = 'any',
     zip_safe = True,
+    package_data = {
+        'ykdl': ['*.js'],
+    },
+
     classifiers = [
         "Development Status :: 4 - Beta",
         "Environment :: Console",
