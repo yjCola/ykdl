@@ -41,7 +41,7 @@ setup(
     platforms = 'any',
     zip_safe = True,
     package_data = {
-        'ykdl': ['*.js'],
+        'ykdl': ['extractors/*.js', 'extractors/*/*.js'],
     },
 
     classifiers = [
